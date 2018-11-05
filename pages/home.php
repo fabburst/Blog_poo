@@ -1,5 +1,8 @@
-<?php
+<ul>
+<?php foreach($db->query('SELECT * FROM articles', 'App\Table\Article' ) as $post): ?>
 
-$db = new App\Database();
-$data = $db->query('SELECT * FROM articles');
-var_dump($data);
+    <h2><a href="<?php $post->getURL() ?>"><?= $post->title; ?></a></h2>
+    <p><?php $post->getExtrait(); ?></p>
+
+    <?php endforeach; ?>
+</ul>
