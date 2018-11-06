@@ -9,9 +9,6 @@ if(isset($_GET['p'])){
     $p = "home";
 }
 
-// Initialisation des objets
-$db = new App\Database();
-//var_dump($db);
 ob_start();
 if($p === 'home'){
 
