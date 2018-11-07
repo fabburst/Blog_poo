@@ -4,11 +4,11 @@ use App\App;
 class Table {
 
     public static function find($id){
-        return App::getDb()->prepare("
+        return static::query("
             SELECT * 
             FROM " . static::$table ."
             WHERE id = ?
-            ", [$id], get_called_class(), true);
+            ", [$id], true);
     }
 
     public static function query($statement,$attributes = null, $one = false){

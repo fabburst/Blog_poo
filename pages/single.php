@@ -7,8 +7,7 @@ if ($post === false){
     App::notfound();
 }
 App::setTitle($post->title);
-$categorie = Categorie::find($post->category_id);
 ?>
 <h1><?= $post->title; ?></h1>
-<p><em><?= $categorie->title; ?></em></p>
+<p><em><?= $post->categorie; ?></em></p>
 <p><?= $post->content; ?></p>
