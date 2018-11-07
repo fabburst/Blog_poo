@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Website</title>
+    <title><?= App\App::getTitle(); ?> </title>
     <link href="/public/css/app.css" rel="stylesheet">
   </head>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">

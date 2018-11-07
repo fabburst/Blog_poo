@@ -6,6 +6,7 @@ $post = Article::find($_GET['id']);
 if ($post === false){
     App::notfound();
 }
+App::setTitle($post->title);
 $categorie = Categorie::find($post->category_id);
 ?>
 <h1><?= $post->title; ?></h1>
