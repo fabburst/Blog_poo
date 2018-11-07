@@ -2,16 +2,30 @@
 namespace App\Table;
 use App\App;
 
-class Article extends Table{
-    public static function getLast(){
-        return App::getDb()->query(
+class Article extends Table {
+
+    protected static $table = 'articles';
+    public static function getLast()
+    {
+        return self::query(
             "SELECT articles.id, articles.title, articles.content, categories.title 
                             as categorie 
                             FROM articles 
                             LEFT JOIN categories 
                               ON category_id = categories.id 
-        ",__CLASS__);
+        ");
     }
+
+    public static function lastByCategory($category_id){
+        return self::query("
+            SELECT articles.id, articles.title, articles.content, categories.title as categorie
+            FROM articles
+            LEFT JOIN categories
+                ON category_id = categories.id
+            WHERE category_id = ?
+         ", [$category_id]);
+    }
+
     public function getUrl(){
         return 'index.php?p=article&id=' . $this->id;
     }

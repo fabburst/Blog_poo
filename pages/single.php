@@ -1,9 +1,13 @@
 <?php
-
-$post = App\App::getDb()->prepare('SELECT * FROM articles WHERE id = ?',
-    [$_GET['id']],'App\Table\Article', true);
-
+use \App\App;
+use \App\Table\Article;
+use \App\Table\Categorie;
+$post = Article::find($_GET['id']);
+if ($post === false){
+    App::notfound();
+}
+$categorie = Categorie::find($post->category_id);
 ?>
 <h1><?= $post->title; ?></h1>
-
+<p><em><?= $categorie->title; ?></em></p>
 <p><?= $post->content; ?></p>

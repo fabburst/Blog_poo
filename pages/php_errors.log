@@ -1,0 +1,206 @@
+[02-Nov-2018 09:25:21 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 09:25:21 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 09:26:03 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 09:26:03 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 09:28:45 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 09:28:45 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 09:30:53 Europe/Paris] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home/fab/sites/Blog_poo/pages/home.php on line 17
+[02-Nov-2018 10:27:17 Europe/Paris] PHP Notice:  Undefined variable: data in /home/fab/sites/Blog_poo/pages/home.php on line 21
+[02-Nov-2018 10:36:48 Europe/Paris] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/fab/sites/Blog_poo/pages/home.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 22
+[02-Nov-2018 10:49:32 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\DAtabase' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 10:49:46 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 10:50:49 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'app\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:38:19 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:38:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:38:57 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:38:57 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:38:58 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:38:58 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:50:16 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:50:43 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:53:42 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:58:00 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:58:09 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:58:34 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:59:07 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:59:37 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'app\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 11:59:40 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'app\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 12:00:14 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 12:01:12 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 12:01:34 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 12:01:35 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[02-Nov-2018 12:02:34 Europe/Paris] PHP Fatal error:  Cannot declare class App\Autoloader, because the name is already in use in /home/fab/sites/Blog_poo/app/Autoloader.php on line 5
+[02-Nov-2018 12:03:01 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 12:03:01 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 12:03:01 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 12:03:01 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 12:03:01 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 12:03:01 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:22
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(22): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(32): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(5): App\Database->query('SELECT * FROM a...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 12:04:08 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 4
+[02-Nov-2018 12:05:12 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/fab/sites/Blog_poo/app/Database.php on line 2
+[02-Nov-2018 14:09:06 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/fab/sites/Blog_poo/pages/home.php on line 29
+[02-Nov-2018 14:10:49 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /home/fab/sites/Blog_poo/app/Database.php on line 4
+[02-Nov-2018 14:11:20 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/fab/sites/Blog_poo/app/Database.php on line 2
+[02-Nov-2018 14:26:53 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 14:26:53 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[02-Nov-2018 14:28:35 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[02-Nov-2018 14:28:35 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[02-Nov-2018 14:28:36 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[02-Nov-2018 14:28:36 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[02-Nov-2018 14:28:47 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[02-Nov-2018 14:28:47 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[02-Nov-2018 16:26:11 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/fab/sites/Blog_poo/app/Database.php on line 2
+[03-Nov-2018 09:31:27 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home/fab/sites/Blog_poo/pages/home.php on line 30
+[03-Nov-2018 19:09:09 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[04-Nov-2018 08:57:23 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[04-Nov-2018 08:58:40 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[04-Nov-2018 09:00:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[04-Nov-2018 09:01:12 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[04-Nov-2018 09:01:30 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[04-Nov-2018 09:02:46 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[04-Nov-2018 19:41:46 Europe/Paris] PHP Warning:  Unterminated comment starting line 9 in /home/fab/sites/Blog_poo/pages/home.php on line 9
+[04-Nov-2018 19:41:46 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[04-Nov-2018 19:42:09 Europe/Paris] PHP Warning:  Unterminated comment starting line 9 in /home/fab/sites/Blog_poo/pages/home.php on line 9
+[04-Nov-2018 19:42:09 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[04-Nov-2018 19:42:17 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[04-Nov-2018 20:34:32 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[04-Nov-2018 21:19:09 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3
+[04-Nov-2018 21:24:21 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 3

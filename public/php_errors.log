@@ -1,0 +1,950 @@
+[01-Nov-2018 17:02:40 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:02:40 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:03:16 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:03:16 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:03:32 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:03:32 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:03:34 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:03:34 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:04:00 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:04:00 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:05:45 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:05:45 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:05:59 Europe/Paris] PHP Warning:  require(../autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:05:59 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:08:11 Europe/Paris] PHP Warning:  require(../app/autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:08:11 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../app/autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[01-Nov-2018 17:08:30 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/fab/sites/Blog_poo/app/Autoloader.php on line 22
+[01-Nov-2018 17:09:09 Europe/Paris] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/fab/sites/Blog_poo/app/Autoloader.php on line 23
+[01-Nov-2018 18:48:58 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'test' in /home/fab/sites/Blog_poo/pages/home.php:2
+Stack trace:
+#0 /home/fab/sites/Blog_poo/pages/home.php(2): PDO->__construct('mysql:dbname=te...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/public/index.php(13): require('/home/fab/sites...')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 2
+[01-Nov-2018 18:50:12 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'Test' in /home/fab/sites/Blog_poo/pages/home.php:6
+Stack trace:
+#0 /home/fab/sites/Blog_poo/pages/home.php(6): PDO->__construct('mysql:host=loca...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/public/index.php(13): require('/home/fab/sites...')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[01-Nov-2018 18:51:28 Europe/Paris] PHP Notice:  Undefined variable: pdo in /home/fab/sites/Blog_poo/pages/home.php on line 15
+[01-Nov-2018 18:51:28 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function exec() on null in /home/fab/sites/Blog_poo/pages/home.php:15
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(13): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 15
+[01-Nov-2018 18:57:28 Europe/Paris] PHP Notice:  Undefined variable: res_fetchAll in /home/fab/sites/Blog_poo/pages/home.php on line 18
+[01-Nov-2018 18:57:39 Europe/Paris] PHP Notice:  Undefined property: PDOStatement::$fetchAll in /home/fab/sites/Blog_poo/pages/home.php on line 18
+[01-Nov-2018 19:06:52 Europe/Paris] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/fab/sites/Blog_poo/pages/home.php:19
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(13): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 19
+[01-Nov-2018 19:07:46 Europe/Paris] PHP Notice:  Undefined offset: 8 in /home/fab/sites/Blog_poo/pages/home.php on line 19
+[01-Nov-2018 19:07:46 Europe/Paris] PHP Notice:  Trying to get property 'title' of non-object in /home/fab/sites/Blog_poo/pages/home.php on line 19
+[01-Nov-2018 19:35:44 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): spl_autoload_call('App\\Database')
+#2 /home/fab/sites/Blog_poo/public/index.php(14): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[01-Nov-2018 19:38:03 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): spl_autoload_call('App\\Database')
+#2 /home/fab/sites/Blog_poo/public/index.php(14): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[01-Nov-2018 19:38:05 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): spl_autoload_call('App\\Database')
+#2 /home/fab/sites/Blog_poo/public/index.php(14): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[01-Nov-2018 19:45:10 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): spl_autoload_call('App\\Database')
+#2 /home/fab/sites/Blog_poo/public/index.php(14): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[01-Nov-2018 19:48:06 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(6): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[01-Nov-2018 19:48:45 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:16
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(6): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[01-Nov-2018 19:55:41 Europe/Paris] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/fab/sites/Blog_poo/app/Autoloader.php on line 18
+[01-Nov-2018 19:55:50 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/App\Database.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[01-Nov-2018 19:55:50 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/App\Database.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:48:46 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/App\Database.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:48:46 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/App\Database.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:54:55 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/App\Database.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:54:55 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/App\Database.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:54:56 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/App\Database.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:54:56 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/App\Database.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:55:30 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Autoloader' not found in /home/fab/sites/Blog_poo/public/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 3
+[02-Nov-2018 07:56:53 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Autoloader' not found in /home/fab/sites/Blog_poo/public/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 3
+[02-Nov-2018 07:57:14 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/App\Database.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 07:57:14 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/App\Database.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:02:44 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(6): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:03:29 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/Autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[02-Nov-2018 08:03:29 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../app/Autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[02-Nov-2018 08:04:00 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/App/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/App/Autoloader.php on line 15
+[02-Nov-2018 08:16:59 Europe/Paris] PHP Warning:  require(../App/Autoloader.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 2
+[02-Nov-2018 08:16:59 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../App/Autoloader.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 2
+[02-Nov-2018 08:18:02 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Autoloader' not found in /home/fab/sites/Blog_poo/public/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 4
+[02-Nov-2018 08:18:33 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:26:46 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function app\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: app\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:27:19 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function app\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: app\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:27:42 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function app\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: app\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:31:40 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:36:09 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:16
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[02-Nov-2018 08:36:30 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:16
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[02-Nov-2018 08:36:37 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Autoloader' not found in /home/fab/sites/Blog_poo/public/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 4
+[02-Nov-2018 08:37:04 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: Autoloader::autoload('Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:37:05 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: Autoloader::autoload('Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:37:49 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:39:43 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:39:45 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:39:45 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function App\strpo() in /home/fab/sites/Blog_poo/app/Autoloader.php:15
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('App\\Database')
+#1 /home/fab/sites/Blog_poo/public/index.php(7): spl_autoload_call('App\\Database')
+#2 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Autoloader.php on line 15
+[02-Nov-2018 08:40:29 Europe/Paris] PHP Notice:  Undefined variable: db_host in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:40:29 Europe/Paris] PHP Notice:  Undefined variable: db_name in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:40:29 Europe/Paris] PHP Notice:  Undefined variable: db_user in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:40:29 Europe/Paris] PHP Notice:  Undefined variable: db_password in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:40:29 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:21
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(21): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(31): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:42:30 Europe/Paris] PHP Notice:  Undefined variable: db_host in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:42:30 Europe/Paris] PHP Notice:  Undefined variable: db_name in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:42:30 Europe/Paris] PHP Notice:  Undefined variable: db_user in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:42:30 Europe/Paris] PHP Notice:  Undefined variable: db_password in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:42:30 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:21
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(21): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(31): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:43:02 Europe/Paris] PHP Notice:  Undefined variable: db_host in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:43:02 Europe/Paris] PHP Notice:  Undefined variable: db_name in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:43:02 Europe/Paris] PHP Notice:  Undefined variable: db_user in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:43:02 Europe/Paris] PHP Notice:  Undefined variable: db_password in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:43:02 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:21
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(21): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(31): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 08:43:50 Europe/Paris] PHP Notice:  Undefined variable: db_host in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:43:50 Europe/Paris] PHP Notice:  Undefined variable: db_name in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:43:50 Europe/Paris] PHP Notice:  Undefined variable: db_user in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:43:50 Europe/Paris] PHP Notice:  Undefined variable: db_password in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:43:50 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:22
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(22): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(32): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:54:06 Europe/Paris] PHP Notice:  Undefined variable: db_host in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:54:06 Europe/Paris] PHP Notice:  Undefined variable: db_name in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:54:06 Europe/Paris] PHP Notice:  Undefined variable: db_user in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:54:06 Europe/Paris] PHP Notice:  Undefined variable: db_password in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 08:54:06 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:22
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(22): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(32): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 09:01:19 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 09:01:19 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 09:01:19 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 09:01:19 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 09:01:19 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 09:01:19 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:21
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(21): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(31): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[02-Nov-2018 09:05:38 Europe/Paris] PHP Notice:  Undefined variable: db_host in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 09:05:38 Europe/Paris] PHP Notice:  Undefined variable: db_name in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 09:05:38 Europe/Paris] PHP Notice:  Undefined variable: db_user in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 09:05:38 Europe/Paris] PHP Notice:  Undefined variable: db_password in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 09:05:38 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:22
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(22): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(32): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[02-Nov-2018 09:06:41 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in /home/fab/sites/Blog_poo/app/Database.php on line 37
+[02-Nov-2018 09:07:22 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in /home/fab/sites/Blog_poo/app/Database.php on line 37
+[02-Nov-2018 09:12:19 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:32
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(32): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 32
+[02-Nov-2018 09:24:16 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:32
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(32): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 32
+[02-Nov-2018 09:28:18 Europe/Paris] PHP Fatal error:  Cannot declare class App\Autoloader, because the name is already in use in /home/fab/sites/Blog_poo/app/Autoloader.php on line 5
+[02-Nov-2018 10:55:00 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:32
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(32): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(3): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 32
+[02-Nov-2018 11:01:13 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in /home/fab/sites/Blog_poo/pages/home.php on line 6
+[02-Nov-2018 11:02:45 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:32
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(32): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 32
+[02-Nov-2018 11:15:04 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:04 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:04 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:04 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:04 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:17 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:17 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:17 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:17 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:17 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:39 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:39 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:39 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:39 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:39 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:41 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:41 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:41 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:41 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:41 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:45 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:45 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:45 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:45 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:15:45 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:16 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:16 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:16 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:16 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:16 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:17 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:17 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:17 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:17 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:17 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:29 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:29 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:29 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:29 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:16:29 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:17:57 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:17:57 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:17:57 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:17:57 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:17:57 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:19:56 Europe/Paris] PHP Parse error:  syntax error, unexpected 'sites' (T_STRING), expecting ',' or ')' in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:20:16 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:20:16 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:20:16 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:20:16 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:20:16 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:21:23 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:21:23 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:21:23 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:21:23 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='sit...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='sit...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/i in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:22:06 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:32:28 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:32:29 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:32:46 Europe/Paris] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No address associated with hostname in /home/fab/sites/Blog_poo/app/Database.php:20
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(20): PDO->__construct('mysql:host='loc...', 'root', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(30): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[02-Nov-2018 11:33:06 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:32
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(32): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(19): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 32
+[02-Nov-2018 11:46:04 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 29
+[02-Nov-2018 11:46:04 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 29
+[02-Nov-2018 11:47:25 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 29
+[02-Nov-2018 11:47:25 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 29
+[02-Nov-2018 14:22:41 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 13
+[02-Nov-2018 14:23:22 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 13
+[02-Nov-2018 14:24:41 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 13
+[02-Nov-2018 14:24:43 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 13
+[02-Nov-2018 14:25:14 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fab/sites/Blog_poo/public/index.php on line 13
+[02-Nov-2018 16:27:48 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/fab/sites/Blog_poo/pages/home.php on line 1
+[02-Nov-2018 16:28:03 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/fab/sites/Blog_poo/app/Database.php on line 2
+[03-Nov-2018 09:31:07 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/fab/sites/Blog_poo/app/Database.php on line 2
+[03-Nov-2018 18:39:03 Europe/Paris] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 32768 bytes) in /home/fab/sites/Blog_poo/pages/home.php on line 1
+[03-Nov-2018 19:09:49 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'App\Database' not found in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(2): require()
+#1 /home/fab/sites/Blog_poo/app/Autoloader.php(16): require('/home/fab/sites...')
+#2 [internal function]: App\Autoloader::autoload('Database')
+#3 /home/fab/sites/Blog_poo/public/index.php(13): spl_autoload_call('App\\Database')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[04-Nov-2018 07:26:38 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[04-Nov-2018 07:26:38 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/PDO.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 07:26:38 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/PDO.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 07:30:43 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[04-Nov-2018 07:30:43 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/PDO.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 07:30:43 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/PDO.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 07:35:03 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[04-Nov-2018 07:35:03 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/PDO.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 07:35:03 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/PDO.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 07:36:25 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 21
+[04-Nov-2018 07:36:25 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:36:25 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:36:25 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:36:25 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:36:25 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:22
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(22): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(32): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(6): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:37:35 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:37:35 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:37:35 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:37:35 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:37:35 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:37:35 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:23
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(23): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(33): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(6): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:42:56 Europe/Paris] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting '{' in /home/fab/sites/Blog_poo/app/Database.php on line 6
+[04-Nov-2018 07:44:54 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 07:44:54 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:44:54 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:44:54 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:44:54 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 07:44:54 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:23
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(23): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(33): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(6): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:55:28 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 08:55:28 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:55:28 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:55:28 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:55:28 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:55:28 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:23
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(23): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(33): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(6): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:56:29 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 08:56:29 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:56:29 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:56:29 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:56:29 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 08:56:29 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:23
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(23): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(33): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(6): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 09:02:58 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 22
+[04-Nov-2018 09:02:58 Europe/Paris] PHP Notice:  Undefined variable: servername in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 09:02:58 Europe/Paris] PHP Notice:  Undefined variable: dbname in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 09:02:58 Europe/Paris] PHP Notice:  Undefined variable: username in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 09:02:58 Europe/Paris] PHP Notice:  Undefined variable: password in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 09:02:58 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/fab/sites/Blog_poo/app/Database.php:23
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(23): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /home/fab/sites/Blog_poo/app/Database.php(33): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(6): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 23
+[04-Nov-2018 19:42:46 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[04-Nov-2018 19:42:46 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/PDO.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 19:42:46 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/PDO.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 19:43:42 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[04-Nov-2018 19:43:42 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:31
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(31): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(7): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 31
+[04-Nov-2018 19:56:45 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[04-Nov-2018 19:56:45 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:31
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(31): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(7): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 31
+[04-Nov-2018 19:57:43 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[04-Nov-2018 19:57:43 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:31
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(31): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(7): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 31
+[04-Nov-2018 19:58:26 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[04-Nov-2018 19:58:26 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/PDO.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 19:58:26 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/PDO.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[04-Nov-2018 20:00:27 Europe/Paris] PHP Notice:  Undefined property: App\Database::$pdo in /home/fab/sites/Blog_poo/app/Database.php on line 20
+[04-Nov-2018 20:00:27 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/fab/sites/Blog_poo/app/Database.php:31
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(31): PDO->query('SELECT * FROM a...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(7): App\Database->query('SELECT * FROM a...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 31
+[04-Nov-2018 20:07:56 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:07:56 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:09:13 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:09:13 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:09:14 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:09:14 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:20:43 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:20:43 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:21:49 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:21:49 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:26:08 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:26:08 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:26:33 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:26:33 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:29:27 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:29:27 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:29:29 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:29:29 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:29:30 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 20:29:30 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:13:46 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:13:46 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:13:58 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:13:58 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:16:28 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:16:28 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:20:26 Europe/Paris] PHP Warning:  require(..pages/templates/default.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 28
+[04-Nov-2018 21:20:26 Europe/Paris] PHP Fatal error:  require(): Failed opening required '..pages/templates/default.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 28
+[05-Nov-2018 17:16:25 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'fab'@'localhost' (using password: YES) in /home/fab/sites/Blog_poo/app/Database.php:24
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(24): PDO->__construct('mysql:dbname=si...', 'fab', 'cupertino')
+#1 /home/fab/sites/Blog_poo/app/Database.php(41): App\Database->getPDO()
+#2 /home/fab/sites/Blog_poo/pages/home.php(4): App\Database->query('SELECT * FROM a...')
+#3 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 24
+[05-Nov-2018 18:33:43 Europe/Paris] PHP Notice:  Undefined property: stdClass::$titre in /home/fab/sites/Blog_poo/pages/home.php on line 4
+[05-Nov-2018 18:33:43 Europe/Paris] PHP Notice:  Undefined property: stdClass::$titre in /home/fab/sites/Blog_poo/pages/home.php on line 4
+[05-Nov-2018 18:33:43 Europe/Paris] PHP Notice:  Undefined property: stdClass::$titre in /home/fab/sites/Blog_poo/pages/home.php on line 4
+[05-Nov-2018 18:33:43 Europe/Paris] PHP Notice:  Undefined property: stdClass::$titre in /home/fab/sites/Blog_poo/pages/home.php on line 4
+[05-Nov-2018 18:33:43 Europe/Paris] PHP Notice:  Undefined property: stdClass::$titre in /home/fab/sites/Blog_poo/pages/home.php on line 4
+[05-Nov-2018 18:53:27 Europe/Paris] PHP Notice:  Undefined variable: class_name in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 18:53:27 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/fab/sites/Blog_poo/app/Database.php:41
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(41): PDO->query('SELECT * FROM a...', NULL)
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 18:59:03 Europe/Paris] PHP Notice:  Undefined variable: class_name in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 18:59:03 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/fab/sites/Blog_poo/app/Database.php:41
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(41): PDO->query('SELECT * FROM a...', NULL)
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 18:59:05 Europe/Paris] PHP Notice:  Undefined variable: class_name in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 18:59:05 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/fab/sites/Blog_poo/app/Database.php:41
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(41): PDO->query('SELECT * FROM a...', NULL)
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 19:12:46 Europe/Paris] PHP Notice:  Undefined variable: class_name in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 19:12:46 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/fab/sites/Blog_poo/app/Database.php:41
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(41): PDO->query('SELECT * FROM a...', NULL)
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[05-Nov-2018 19:14:11 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/Table/Article.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[05-Nov-2018 19:14:11 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/Table/Article.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[05-Nov-2018 19:17:28 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/Table/Article.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[05-Nov-2018 19:17:28 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/Table/Article.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[05-Nov-2018 19:17:29 Europe/Paris] PHP Warning:  require(/home/fab/sites/Blog_poo/app/Table/Article.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[05-Nov-2018 19:17:29 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/fab/sites/Blog_poo/app/Table/Article.php' (include_path='.:') in /home/fab/sites/Blog_poo/app/Autoloader.php on line 16
+[05-Nov-2018 19:51:21 Europe/Paris] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected ';', expecting ',' or ')' in /home/fab/sites/Blog_poo/app/Table/Article.php:11
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('Table/Article')
+#1 [internal function]: spl_autoload_call('App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/app/Database.php(42): PDOStatement->fetchAll(8, 'App\\Table\\Artic...')
+#3 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#4 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#5 {main}
+
+Next PDOException: SQLSTATE[HY000]: General error: could not find user-specified class in /home/fab/sites/Blog_poo/app/Database.php:42
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(42): PDOStatement->fetchAll(8, 'App\\Table\\Artic...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main} in /home/fab/sites/Blog_poo/app/Database.php on line 42
+[06-Nov-2018 15:42:35 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 15:59:44 Europe/Paris] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '}' in /home/fab/sites/Blog_poo/app/Table/Article.php:8
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('Table/Article')
+#1 [internal function]: spl_autoload_call('App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/app/Database.php(42): PDOStatement->fetchAll(8, 'App\\Table\\Artic...')
+#3 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#4 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#5 {main}
+
+Next PDOException: SQLSTATE[HY000]: General error: could not find user-specified class in /home/fab/sites/Blog_poo/app/Database.php:42
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(42): PDOStatement->fetchAll(8, 'App\\Table\\Artic...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 42
+[06-Nov-2018 16:01:12 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:01:14 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:02:20 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:03:36 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:16:04 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:16:04 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:16:05 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:16:05 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:16:11 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:16:11 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:16:32 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:16:32 Europe/Paris] PHP Notice:  Undefined variable: extrait in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:16:32 Europe/Paris] PHP Fatal error:  Uncaught Error: Method name must be a string in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:17:21 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:17:21 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:17:21 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:17:21 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:17:21 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:23:33 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:23:33 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:23:33 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:23:33 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:23:33 Europe/Paris] PHP Notice:  Undefined variable: get in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7
+[06-Nov-2018 16:25:41 Europe/Paris] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{' in /home/fab/sites/Blog_poo/app/Table/Article.php:9
+Stack trace:
+#0 [internal function]: App\Autoloader::autoload('Table/Article')
+#1 [internal function]: spl_autoload_call('App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/app/Database.php(42): PDOStatement->fetchAll(8, 'App\\Table\\Artic...')
+#3 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#4 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites...')
+#5 {main}
+
+Next PDOException: SQLSTATE[HY000]: General error: could not find user-specified class in /home/fab/sites/Blog_poo/app/Database.php:42
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(42): PDOStatement->fetchAll(8, 'App\\Table\\Artic...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Database->query('SELECT * FROM a...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/public/index.php(18): require('/home/fab/sites in /home/fab/sites/Blog_poo/app/Database.php on line 42
+[06-Nov-2018 16:27:55 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::Extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:28:47 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 16:30:42 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\Article::extrait() in /home/fab/sites/Blog_poo/pages/home.php:5
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(18): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/home.php on line 5
+[06-Nov-2018 17:21:29 Europe/Paris] PHP Warning:  PDOStatement::fetch() expects parameter 2 to be integer, string given in /home/fab/sites/Blog_poo/app/Database.php on line 50
+[06-Nov-2018 19:59:38 Europe/Paris] PHP Notice:  Undefined variable: db in /home/fab/sites/Blog_poo/pages/single.php on line 3
+[06-Nov-2018 19:59:38 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/fab/sites/Blog_poo/pages/single.php:3
+Stack trace:
+#0 /home/fab/sites/Blog_poo/public/index.php(19): require()
+#1 {main}
+  thrown in /home/fab/sites/Blog_poo/pages/single.php on line 3
+[06-Nov-2018 20:06:56 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Database::prepare(), 2 passed in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7 and at least 3 expected in /home/fab/sites/Blog_poo/app/Database.php:45
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Table/Article.php(7): App\Database->prepare('SELECT * FROM a...', 'App\\Table\\Artic...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Table\Article::getLast()
+#2 /home/fab/sites/Blog_poo/public/index.php(15): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 45
+[06-Nov-2018 20:07:26 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Database::prepare(), 2 passed in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7 and at least 3 expected in /home/fab/sites/Blog_poo/app/Database.php:45
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Table/Article.php(7): App\Database->prepare('SELECT * FROM a...', 'App\\Table\\Artic...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(2): App\Table\Article::getLast()
+#2 /home/fab/sites/Blog_poo/public/index.php(15): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 45
+[06-Nov-2018 20:08:06 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function App\Database::prepare(), 2 passed in /home/fab/sites/Blog_poo/app/Table/Article.php on line 7 and at least 3 expected in /home/fab/sites/Blog_poo/app/Database.php:45
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Table/Article.php(7): App\Database->prepare('SELECT * FROM a...', 'App\\Table\\Artic...')
+#1 /home/fab/sites/Blog_poo/pages/home.php(1): App\Table\Article::getLast()
+#2 /home/fab/sites/Blog_poo/public/index.php(15): require('/home/fab/sites...')
+#3 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 45
+[07-Nov-2018 14:03:08 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'catergories.id' in 'on clause' in /home/fab/sites/Blog_poo/app/Database.php:41
+Stack trace:
+#0 /home/fab/sites/Blog_poo/app/Database.php(41): PDO->query('SELECT articles...')
+#1 /home/fab/sites/Blog_poo/app/Table/Article.php(13): App\Database->query('SELECT articles...', 'App\\Table\\Artic...')
+#2 /home/fab/sites/Blog_poo/pages/home.php(1): App\Table\Article::getLast()
+#3 /home/fab/sites/Blog_poo/public/index.php(15): require('/home/fab/sites...')
+#4 {main}
+  thrown in /home/fab/sites/Blog_poo/app/Database.php on line 41
+[07-Nov-2018 14:28:56 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in /home/fab/sites/Blog_poo/pages/home.php on line 18
+[07-Nov-2018 14:30:01 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in /home/fab/sites/Blog_poo/pages/home.php on line 18
+[07-Nov-2018 14:30:33 Europe/Paris] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/fab/sites/Blog_poo/app/Table/Categorie.php on line 7
+[07-Nov-2018 14:32:30 Europe/Paris] PHP Notice:  Undefined property: App\Table\Categorie::$url in /home/fab/sites/Blog_poo/pages/home.php on line 13
+[07-Nov-2018 14:32:30 Europe/Paris] PHP Notice:  Undefined property: App\Table\Categorie::$url in /home/fab/sites/Blog_poo/pages/home.php on line 13
+[07-Nov-2018 14:52:40 Europe/Paris] PHP Parse error:  syntax error, unexpected '$class_name' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/fab/sites/Blog_poo/app/Table/Table.php on line 5
+[07-Nov-2018 14:54:44 Europe/Paris] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/fab/sites/Blog_poo/app/Table/Table.php on line 13
+[07-Nov-2018 14:55:06 Europe/Paris] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/fab/sites/Blog_poo/app/Table/Table.php on line 19
+[07-Nov-2018 14:55:39 Europe/Paris] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/fab/sites/Blog_poo/app/Table/Table.php on line 19
+[07-Nov-2018 14:55:57 Europe/Paris] PHP Fatal error:  Class 'App\Table\Table' not found in /home/fab/sites/Blog_poo/app/Table/Article.php on line 5
+[07-Nov-2018 14:58:21 Europe/Paris] PHP Fatal error:  Class 'App\Table\Table' not found in /home/fab/sites/Blog_poo/app/Table/Article.php on line 5
+[07-Nov-2018 14:58:23 Europe/Paris] PHP Fatal error:  Class 'App\Table\Table' not found in /home/fab/sites/Blog_poo/app/Table/Article.php on line 5
+[07-Nov-2018 14:59:21 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/fab/sites/Blog_poo/app/Table/Categorie.php on line 12
+[07-Nov-2018 15:29:05 Europe/Paris] PHP Warning:  require(../pages/categorie.php): failed to open stream: No such file or directory in /home/fab/sites/Blog_poo/public/index.php on line 23
+[07-Nov-2018 15:29:05 Europe/Paris] PHP Fatal error:  require(): Failed opening required '../pages/categorie.php' (include_path='.:') in /home/fab/sites/Blog_poo/public/index.php on line 23
+[07-Nov-2018 16:14:41 Europe/Paris] PHP Notice:  Trying to get property 'title' of non-object in /home/fab/sites/Blog_poo/pages/categorie.php on line 8
+[07-Nov-2018 16:18:55 Europe/Paris] PHP Notice:  Trying to get property 'title' of non-object in /home/fab/sites/Blog_poo/pages/categorie.php on line 13
+[07-Nov-2018 16:21:10 Europe/Paris] PHP Notice:  Trying to get property 'title' of non-object in /home/fab/sites/Blog_poo/pages/categorie.php on line 11
+[07-Nov-2018 16:29:10 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:29:18 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/single.php on line 2
+[07-Nov-2018 16:36:56 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/single.php on line 2
+[07-Nov-2018 16:48:17 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:48:30 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:48:44 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:48:46 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:49:15 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:49:18 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:50:58 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
+[07-Nov-2018 16:50:59 Europe/Paris] PHP Warning:  The use statement with non-compound name 'App' has no effect in /home/fab/sites/Blog_poo/pages/categorie.php on line 2
